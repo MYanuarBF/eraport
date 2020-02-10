@@ -14,3 +14,19 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/head', function () {
+    return view('head');
+});
+
+Route::get('/biodata', function () {
+    return view('biodata');
+});
+
+Route::get('/add', function () {
+    return view('add');
+});
